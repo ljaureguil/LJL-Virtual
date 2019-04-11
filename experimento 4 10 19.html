@@ -94,8 +94,6 @@ https://cdn.rawgit.com/chandlerprall/ThreeCSG/aefe3778/ThreeCSG.js<html>
                 /*   */
 
                 var bulbGeometry = new THREE.SphereBufferGeometry(5, 16, 8);
-            //    bulbLight = new THREE.PointLight(0xffee88, 2.5, 2000, 2);
-
                 ////////////////////////////////////////////////////////////////////////
 
                 var spotLight = new THREE.SpotLight(0xaaaaaa);
@@ -112,10 +110,6 @@ https://cdn.rawgit.com/chandlerprall/ThreeCSG/aefe3778/ThreeCSG.js<html>
                     emissiveIntensity: 1,
                     color: 0xff0000
                 });
-              //  bulbLight.add(new THREE.Mesh(bulbGeometry, bulbMat));
-               // bulbLight.position.set(0, 300, 0);
-                //bulbLight.castShadow = true;
-             //   scene.add(bulbLight);
 
                 var light = new THREE.AmbientLight(0xffffff, .65); // soft white light
                 scene.add(light);
