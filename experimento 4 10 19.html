@@ -78,7 +78,7 @@ https://cdn.rawgit.com/chandlerprall/ThreeCSG/aefe3778/ThreeCSG.js<html>
             scene.add(mesh);
 
             renderer = new THREE.WebGLRenderer({
-                antialias: true
+                antialias: true, alpha: true 
             });
             renderer.setSize(window.innerWidth, window.innerHeight);
             document.body.appendChild(renderer.domElement);
